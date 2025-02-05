@@ -48,11 +48,11 @@ def inicializar_estado():
 
 def configurar_pagina():
     #CAMBIAR NOMBRE DE PESTAÑA
-    st.set_page_config("Mi chat AI")
+    st.set_page_config("Sharp IA")
     #AGREGAMOS UN TITULO
-    st.title("Mi Chatgpt")
+    st.title("Sharp")
     #AGREGAR SIDEBAR
-    st.sidebar.title("Sidebar de modelos")
+    st.sidebar.title("modelos")
     m = st.sidebar.selectbox("Modelos", MODELOS, index = 0)
     return m
 
